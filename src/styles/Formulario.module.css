@@ -1,0 +1,77 @@
+.ContainerFundo {
+  background-color: rgb(66, 29, 29);
+  width: 100%;
+  height: 400px;
+}
+
+.ContainerFundo2 {
+  background-color: rgb(205, 133, 66);
+  width: 100%;
+  height: 400px;
+}
+
+.Titulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  text-align: center;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(205, 133, 66);
+  padding-top: 5%;
+  margin-left: 3%;
+}
+
+.subTitulo {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: clamp(20px, 30px, 35px);
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+iframe {
+  width: 100%;
+  height: 327px;
+  margin-top: 17%;
+  padding: 8%;
+  border: none;
+  border-radius: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.containerFormulario {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  margin-top: 3%;
+}
+
+.campoInput {
+  font-size: 16.5px;
+  color: #fff;
+  background-color: rgb(66, 29, 29);
+  outline: none;
+  border: 1px solid rgb(205, 133, 66);
+  border-radius: 3px;
+  width: 85%;
+  height: 38px;
+  margin-top: 4%;
+  padding: 4%;
+}

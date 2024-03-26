@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Container {
+  background-color: rgb(66, 29, 29);
+  width: 100%;
+  height: 150px;
+}
+
+.Logo {
+  margin-top: 2%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 2%;
+    gap: 50%;
+  }
+
+  .menuMobile {
+    display: block;
+    font-size: 45px;
+    color: #fff;
+    cursor: pointer;
+  }
+}

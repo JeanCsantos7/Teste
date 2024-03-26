@@ -1,0 +1,50 @@
+.titulo {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: rgb(66, 29, 29);
+  font-size: clamp(20px, 30px, 35px);
+  margin-top: 12%;
+  margin-left: 3%;
+}
+
+.subTitulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  text-align: center;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(205, 133, 66);
+  margin-top: 1%;
+}
+
+.infoDiferenciais {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(205, 133, 66);
+  font-size: clamp(16px, 19px, 24px);
+  width: 100%;
+  margin-top: 10%;
+}
+
+.infoImagem {
+  width: 92px;
+}
+
+.diferencial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 7%;
+}
+
+.conteudoContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 25%;
+  margin-top: 19%;
+  margin: 6%;
+}

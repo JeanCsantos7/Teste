@@ -1,0 +1,31 @@
+
+.campoInput{
+    width: 75%;
+    height: 53px;
+    outline: none;
+   
+   
+}
+
+.buttonInput{
+ width: 15%;
+ height: 53px;
+ background-color: rgb(80, 45, 45);
+ outline: none;
+ border: none;
+ cursor: pointer;
+}
+
+.lupa{
+    color: rgb(205, 133, 66);
+    font-size: 26px;
+}
+
+.containerInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19%;
+    padding: 4%;
+}
+

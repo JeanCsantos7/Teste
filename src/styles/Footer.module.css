@@ -1,0 +1,59 @@
+
+.Footer{
+    width: 100%;
+    height: 225px;
+    background-color: rgb(66, 29, 29);
+    margin-top: 29%;
+    padding: 5%;
+}
+
+.Titulo{
+font-family: "Bebas Neue", sans-serif;
+text-transform: uppercase;
+font-size: clamp(17px, 22px, 30px);
+text-align: center;
+color: rgb(205, 133, 66);
+
+}
+
+.Informacoes{
+    font-family: "Roboto", sans-serif;
+    font-size: clamp(14px, 16px, 24px);
+    text-align: justify;
+    color: #FFF;
+    margin-top: 3.6%;
+}
+
+.Telefone{
+    color: rgb(205, 133, 66);
+    font-size: clamp(19px, 25px, 29px);
+
+}
+
+.containerFooter{
+    display: flex;
+    align-items: center;
+    gap: 9%;
+    margin-top: 5%;
+  
+}
+
+.Icones{
+    font-size: 29px;
+    color: rgb(205, 133, 66);
+}
+
+.Direitos{
+    background-color: rgb(205, 133, 66);
+    height: 120px;
+}
+
+.TituloDireitos{
+
+    font-size: "Roboto", sans-serif;
+    color: rgb(66, 29, 29);
+    font-size: clamp(18px, 22px, 29px);
+    padding: 4%;
+    text-align: center;
+    width: 100%;
+}

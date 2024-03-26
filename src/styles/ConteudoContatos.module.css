@@ -1,0 +1,17 @@
+
+.Container{
+    width: 88%;
+    height: 507px;
+    margin: 0 auto;
+    background-color: rgb(80, 32, 32);
+    border-radius: 8px;
+    margin-top: 25%;
+}
+
+.circulo{
+    background-color: rgb(205, 133, 66);
+    width: 100%;
+    height: 55px;
+    border-radius: 2%
+ 
+}

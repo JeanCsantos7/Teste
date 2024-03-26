@@ -1,0 +1,12 @@
+body {
+  overflow-x: hidden;
+}
+
+main {
+  object-fit: cover;
+}
+
+.imagemBanner {
+  width: 100%;
+  height: 390px;
+}

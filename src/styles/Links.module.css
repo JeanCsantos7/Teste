@@ -1,0 +1,28 @@
+.Links {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18.5px;
+  z-index: 2;
+ 
+   
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 9%;
+  width: 100%;
+  height: 275px;
+  background-color: rgb(205, 133, 66);
+ 
+  transition: opacity 0.3s ease;
+  
+
+ 
+}
+
